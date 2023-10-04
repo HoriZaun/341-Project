@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="AE07BB37-1096-5BE1-72A1-B548387EA81D">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 17:19:31 UTC</createdTime>
+<ownerDesignName>341 Project</ownerDesignName>
+<engineerTo>
+<item key="A1DFD262-0BD0-56EB-48E4-98FD203DFA68" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E12FD85E-49BB-1DCD-A5F3-01786025CE00</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B22DA48D-1463-CC30-1B98-6071D21B9295</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

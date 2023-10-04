@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22FDE08D-7066-3FC1-D83C-9284F09C4304" name="VisitRoutine">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>FAC39047-5107-59D1-B186-924831623D18</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Date" id="06171ABF-538D-2BD7-D9B5-1B2A39473E9C">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>4195B2A6-290B-ADE3-A8DA-F6E6027A5422</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Time" id="D52A802E-B56E-2D59-6A2A-F34CE7CCFFEC">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>04B167A6-CB1F-B4F9-705E-EB009E4CB928</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VisitType" id="DBB1ADB7-4E3C-D651-AD04-06DEA885BFE1">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>B6248925-0B6B-7B19-546E-EB1F0614FE8E</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6E300B1-D43F-C948-00F3-090503FD772F" referredColumn="E6EAD712-8A00-D2FF-95C5-8214E878C14F"/>
+</associations>
+</Column>
+<Column name="PatientID" id="AF1A3AB7-1EB3-E310-9379-5DD21B641A59">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>C031775B-0D10-7E00-9DCD-03080E41758B</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BloodPressure" id="B9B36D5E-CD56-2489-33E9-E9CA74ED6252">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>F4916BB5-2E26-34B9-D2BF-E13B56D1AE63</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Height" id="506CC93F-488C-B8CE-7AFD-A60FF04EAF34">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>DC39735F-63F4-FAF9-BF56-734D44B478D2</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Weight" id="924DF6E1-6746-E362-78E4-A9BA5D5B33B3">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>83B98E34-71CF-24A7-DD5C-74314C715D1B</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="675C72BB-07FA-985F-22FA-ED1B9500FC84" name="VisitRoutine_PK">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>7B1CC6DA-E353-44BA-4DE0-7D4ACA59DD9D</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBB1ADB7-4E3C-D651-AD04-06DEA885BFE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D208CCF1-F539-F1A7-421D-06BCDEC32142" name="VisitRoutine_Visit_FK">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>62813633-B87B-FBA3-D9F6-9F3ACE19E1B9</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBB1ADB7-4E3C-D651-AD04-06DEA885BFE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

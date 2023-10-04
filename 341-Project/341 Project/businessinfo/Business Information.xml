@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="C9D0A46B-9BE0-C10C-240B-369E5D9BE5AE">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 16:22:26 UTC</createdTime>
+<ownerDesignName>341 Project</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

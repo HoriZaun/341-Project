@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="A1DFD262-0BD0-56EB-48E4-98FD203DFA68" mainViewID="13CF26FB-E60A-94DB-9470-24771BB507F5">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 16:22:30 UTC</createdTime>
+<ownerDesignName>341 Project</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

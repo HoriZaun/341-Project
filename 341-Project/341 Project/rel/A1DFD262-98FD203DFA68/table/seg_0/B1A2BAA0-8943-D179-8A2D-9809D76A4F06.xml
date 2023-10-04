@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1A2BAA0-8943-D179-8A2D-9809D76A4F06" name="Visit">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>C5701FBD-CCEE-1294-8960-4A2C27D359BA</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Date" id="A926DAA5-C6A7-4D76-385C-48E71135BDBC">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>4195B2A6-290B-ADE3-A8DA-F6E6027A5422</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Time" id="EB7834E8-E538-3A01-4917-8817EC1CFA60">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>04B167A6-CB1F-B4F9-705E-EB009E4CB928</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VisitType" id="E6EAD712-8A00-D2FF-95C5-8214E878C14F">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>B6248925-0B6B-7B19-546E-EB1F0614FE8E</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_PatientID" id="FC7ABA24-BF86-88AD-ED7E-01246EC6CEC9">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>C031775B-0D10-7E00-9DCD-03080E41758B</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BE0AA40-31B7-0CAF-3323-44E9E8FDE9E0" referredColumn="114FD7A2-94BA-98AC-0EFC-84D00356AB7A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CEEEC13-8860-C20A-7A9A-D49EE28A61CD" name="Visit_PK">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>7B1CC6DA-E353-44BA-4DE0-7D4ACA59DD9D</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6EAD712-8A00-D2FF-95C5-8214E878C14F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E750192E-0654-2DFB-01CC-468CB8E194D4" name="Visit_Patient_FK">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>DD4D2EEC-7EC2-EA41-B940-FC4D18036F33</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC7ABA24-BF86-88AD-ED7E-01246EC6CEC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

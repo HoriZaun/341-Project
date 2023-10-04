@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59BD015C-0AA6-15B6-5587-0D7427A881AE" name="HospAff">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>4B0C0FF9-5806-E8E0-768D-2D3CE87F49C7</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Doctor_DoctorID" id="787FE3D3-4C3A-34A0-2727-E6BE4D25F151">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>B2EA198C-A863-DB67-5FB3-090AE5E8A447</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C2D11C4-E839-016B-4040-4C923ED38FA1" referredColumn="CE3D8F4B-6913-3D27-D26D-40F4BFDE3D7D"/>
+</associations>
+</Column>
+<Column name="Hospital_HospitalID" id="0626DC14-2671-0D7F-B51A-D2F273EE2C59">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>33F5B937-2215-1F5D-1093-9359636A0549</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74264A81-94B2-D846-9931-A7FB397108BE" referredColumn="EBF6F289-B1B2-C4E3-99BE-83DC847D6217"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB33DEB1-EAC0-4202-0873-A66DF15F1199" name="HospAff_PK">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>4BC660F8-DCD7-077B-C51E-2149C1C84412</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="787FE3D3-4C3A-34A0-2727-E6BE4D25F151"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="977CDAB8-5DC0-0AC2-E750-B902E566D894" name="HospAff_Doctor_FK">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>15326A8A-F92A-D473-0BB2-BB02D0614583</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="787FE3D3-4C3A-34A0-2727-E6BE4D25F151"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="762A01FF-B3F9-93EB-F988-7538C1C72419" name="HospAff_Hospital_FK">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>4FDF149F-1D5F-E225-50C5-9DE975AACF82</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0626DC14-2671-0D7F-B51A-D2F273EE2C59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

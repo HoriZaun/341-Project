@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A145935-6AFD-9675-F888-F7DFD5EAF96C" containerWithKeyObject="C7F60026-C970-536D-017D-1DBB20DBE6B2" localFKIndex="5E413C47-B1AE-A1DB-DE2E-F71409D816EB" name="Prescription_Doctor_FK">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:58:14 UTC</createdTime>
+<generatorID>1515C326-34BE-A7C2-D1C9-DFA2E56C6749</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<referredTableLongName>Doctor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6AA39FF2-27A4-D86C-01F5-74AF000F8ACD</referredTableID>
+<keyObject>4729276B-8E0D-E8B6-D28F-5712EA232CDA</keyObject>
+<referredKeyID>4729276B-8E0D-E8B6-D28F-5712EA232CDA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DoctorID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

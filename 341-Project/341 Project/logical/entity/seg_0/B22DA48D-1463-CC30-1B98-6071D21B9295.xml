@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B22DA48D-1463-CC30-1B98-6071D21B9295" name="Prescription">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 17:19:06 UTC</createdTime>
+<ownerDesignName>341 Project</ownerDesignName>
+<engineerTo>
+<item key="A1DFD262-0BD0-56EB-48E4-98FD203DFA68" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PrescriptionID" id="E4AE4E8D-D378-77A8-34AB-5CFA60FAB365">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 17:19:16 UTC</createdTime>
+<ownerDesignName>341 Project</ownerDesignName>
+<engineerTo>
+<item key="A1DFD262-0BD0-56EB-48E4-98FD203DFA68" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PatientID" id="E43A30EC-7E4A-D0F4-8E4B-DBC9B5B3859C">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 17:19:45 UTC</createdTime>
+<generatorID>4C485DBA-D89B-7A6C-9317-B251484D5D96</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<engineerTo>
+<item key="A1DFD262-0BD0-56EB-48E4-98FD203DFA68" value="true"/>
+</engineerTo>
+<referedAttribute>13F6DE32-E142-79F2-E0A6-8456DCF07596</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DoctorID" id="D1779E35-3BB7-829E-39D0-27D5DA43AD5E">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 17:21:01 UTC</createdTime>
+<generatorID>1515C326-34BE-A7C2-D1C9-DFA2E56C6749</generatorID>
+<ownerDesignName>341 Project</ownerDesignName>
+<engineerTo>
+<item key="A1DFD262-0BD0-56EB-48E4-98FD203DFA68" value="true"/>
+</engineerTo>
+<referedAttribute>4E59C43A-B763-3C34-A284-9DDD1CF729A8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="601B4BC5-4F37-78EC-6FC6-5832E0BD0299" name="Prescription PK">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 17:19:23 UTC</createdTime>
+<ownerDesignName>341 Project</ownerDesignName>
+<engineerTo>
+<item key="A1DFD262-0BD0-56EB-48E4-98FD203DFA68" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4AE4E8D-D378-77A8-34AB-5CFA60FAB365</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

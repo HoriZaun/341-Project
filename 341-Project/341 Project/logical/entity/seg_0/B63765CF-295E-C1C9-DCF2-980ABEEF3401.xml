@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B63765CF-295E-C1C9-DCF2-980ABEEF3401" name="VisitNew">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:54:53 UTC</createdTime>
+<ownerDesignName>341 Project</ownerDesignName>
+<engineerTo>
+<item key="A1DFD262-0BD0-56EB-48E4-98FD203DFA68" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>C5701FBD-CCEE-1294-8960-4A2C27D359BA</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="InitialDiagnosis" id="AD1F2549-05B7-3E56-76E0-ECDD8EA6A045">
+<createdBy>lostj</createdBy>
+<createdTime>2023-09-27 19:55:02 UTC</createdTime>
+<ownerDesignName>341 Project</ownerDesignName>
+<engineerTo>
+<item key="A1DFD262-0BD0-56EB-48E4-98FD203DFA68" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
